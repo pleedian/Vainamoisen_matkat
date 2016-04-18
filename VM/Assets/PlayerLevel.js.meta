@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f795bb894c3bcdb4f8aa14fb651917b0
+timeCreated: 1461018906
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - xpbar: {fileID: 2800000, guid: 6848522a5bc253d489ca5af8cd91dd74, type: 3}
+  - xpbar_full: {fileID: 2800000, guid: 54ff4e7538d5e4341802fa6e390dcf01, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
