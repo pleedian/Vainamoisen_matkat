@@ -86,7 +86,10 @@ print("1");
  SceneManagement.SceneManager.LoadScene("chapters/level");
 // Application.LoadLevel(name);
 }
-
+function LoadChapter(){
+ SceneManagement.SceneManager.LoadScene("chapters");
+// Application.LoadLevel(name);
+}
 
 public var buttonlist:  GameObject[];
 //funktio joka näyttää oikean chapterin "tehtävät"
