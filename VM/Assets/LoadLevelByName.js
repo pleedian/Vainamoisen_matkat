@@ -136,6 +136,7 @@ function ChangeChapter(number: int){
 
 var textforhelp : ReadVoc ;
 //function to show help text to learn finnish words:
+//input = level number
 function showText(level :int) {
   PermanentVariables.CLevel = level;
     help.SetActive(true);
