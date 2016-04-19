@@ -35,7 +35,7 @@ function Start () {
     for(var i2=0;i2<buttonlist3.Length;i2++){
       buttonlist3[i2].SetActive(true);
     }
-    //aina aluksi näytetään vain chapter 1
+    //always who chapter1:
     ChangeChapter(1);
 }
 
@@ -54,7 +54,7 @@ function Update () {
         }
   }
 
-  //XP
+  //XP : TODO this is will be moved to playscene: levelscene:
   if(PermanentVariables.Experience >= PermanentVariables.NextXpLevel) {
     if(PermanentVariables.Experience > PermanentVariables.NextXpLevel) {
       PermanentVariables.Experience= PermanentVariables.Experience-PermanentVariables.NextXpLevel;
@@ -80,12 +80,16 @@ function Update () {
   }
 }
 
+//function takes level number so level knows what questions to ask
 function LoadLvl(name : int){
-print("1");
+//changes variable:
   PermanentVariables.CLevel =name;
  SceneManagement.SceneManager.LoadScene("chapters/level");
 // Application.LoadLevel(name);
 }
+
+//Function that is used in main menu
+//load Chapter selection scene:
 function LoadChapter(){
  SceneManagement.SceneManager.LoadScene("chapters");
 // Application.LoadLevel(name);
@@ -131,6 +135,7 @@ function ChangeChapter(number: int){
 }
 
 var textforhelp : ReadVoc ;
+//function to show help text to learn finnish words:
 function showText(level :int) {
   PermanentVariables.CLevel = level;
     help.SetActive(true);
