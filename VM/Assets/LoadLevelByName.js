@@ -11,10 +11,19 @@ function Start () {
     buttonlist2 = GameObject.FindGameObjectsWithTag ("chapter2");
     buttonlist3 = GameObject.FindGameObjectsWithTag ("chapter3");
     help = GameObject.FindGameObjectWithTag ("helpmenu");
-    helptext = GameObject.Find("helpmenutext").GetComponent.<UI.Text>();
-    playerlevel = GameObject.Find("playerlevel").GetComponent.<UI.Text>();
 
-    help.SetActive(false);
+    var helptext2= GameObject.Find("helpmenutext");
+    if(helptext2)
+      helptext = helptext2.GetComponent.<UI.Text>();
+
+
+    //playerlevel = GameObject.Find("playerlevel").GetComponent.<UI.Text>();
+    var playerlevel2= GameObject.Find("playerlevel");
+    if(playerlevel2)
+      playerlevel = playerlevel2.GetComponent.<UI.Text>();
+
+    if(help)
+      help.SetActive(false);
     //piiloitetaan turhat pois:
     for(var i=0;i<buttonlist1.Length;i++){
       buttonlist1[i].SetActive(true);
@@ -34,32 +43,41 @@ function Start () {
 
 
 //fullXPWidth *(PermanentVariables.Experience/ PermanentVariables.NextXpLevel)
+var Timer:float = 0.0;
 function Update () {
-  if (Input.GetKeyDown ("escape"))
-  			  help.SetActive(false);
+  //was for test:
+  //Timer += Time.deltaTime;
+  //PermanentVariables.Experience += Timer;
+  if (Input.GetKeyDown ("escape")) {
+  		  if(help) {
+          help.SetActive(false);
+        }
+  }
 
-          //XP
-          if(PermanentVariables.Experience >= PermanentVariables.NextXpLevel) {
-            if(PermanentVariables.Experience > PermanentVariables.NextXpLevel) {
-              PermanentVariables.Experience= PermanentVariables.Experience-PermanentVariables.NextXpLevel;
-            } else {
-              PermanentVariables.Experience = 0;
-            }
-            if(PermanentVariables.Level <10) {
-                PermanentVariables.Level+=1;
-            }
-            PermanentVariables.NextXpLevel= PermanentVariables.NextXpLevel*3 ;
-          }
-  if(PermanentVariables.Level==1)
-    playerlevel.text  = "Beginner";
-  if(PermanentVariables.Level==3)
-    playerlevel.text  = "Novice";
-  if(PermanentVariables.Level==5)
-    playerlevel.text  = "Mediocre";
-  if(PermanentVariables.Level==7)
-    playerlevel.text  = "Master";
-  if(PermanentVariables.Level==10)
-    playerlevel.text  = "Expert";
+  //XP
+  if(PermanentVariables.Experience >= PermanentVariables.NextXpLevel) {
+    if(PermanentVariables.Experience > PermanentVariables.NextXpLevel) {
+      PermanentVariables.Experience= PermanentVariables.Experience-PermanentVariables.NextXpLevel;
+    } else {
+        PermanentVariables.Experience = 0;
+      }
+      if(PermanentVariables.Level <10) {
+          PermanentVariables.Level+=1;
+      }
+      PermanentVariables.NextXpLevel= PermanentVariables.NextXpLevel*3 ;
+    }
+  if(playerlevel) {
+    if(PermanentVariables.Level==1)
+      playerlevel.text  = "Beginner";
+    if(PermanentVariables.Level==3)
+      playerlevel.text  = "Novice";
+    if(PermanentVariables.Level==5)
+      playerlevel.text  = "Mediocre";
+    if(PermanentVariables.Level==7)
+      playerlevel.text  = "Master";
+    if(PermanentVariables.Level==10)
+      playerlevel.text  = "Expert";
+  }
 }
 
 function LoadLvl(name : String){
