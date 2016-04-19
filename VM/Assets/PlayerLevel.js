@@ -6,6 +6,8 @@ public static class PermanentVariables
     public var Experience : float = 0;
       public var NextXpLevel : float = 100;
     public var Level : int = 1;
+    public var Chapter : int = 1;
+    public var CLevel : int = 0;
 
 }
 function Start() {

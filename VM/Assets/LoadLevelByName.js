@@ -80,8 +80,10 @@ function Update () {
   }
 }
 
-function LoadLvl(name : String){
- SceneManagement.SceneManager.LoadScene(name);
+function LoadLvl(name : int){
+print("1");
+  PermanentVariables.CLevel =name;
+ SceneManagement.SceneManager.LoadScene("chapters/level");
 // Application.LoadLevel(name);
 }
 
@@ -90,6 +92,7 @@ public var buttonlist:  GameObject[];
 //funktio joka näyttää oikean chapterin "tehtävät"
 function ChangeChapter(number: int){
   if(number==1){
+      PermanentVariables.Chapter = 1;
     for(var i=0;i<buttonlist1.Length;i++){
       buttonlist1[i].SetActive(true);
     }
@@ -100,6 +103,7 @@ function ChangeChapter(number: int){
       buttonlist3[ik1].SetActive(false);
     }
  } if (number == 2){
+   PermanentVariables.Chapter = 2;
    for(var i3=0;i3<buttonlist1.Length;i3++){
      buttonlist1[i3].SetActive(false);
    }
@@ -110,6 +114,7 @@ function ChangeChapter(number: int){
      buttonlist3[ik12].SetActive(false);
    }
  }if (number == 3){
+   PermanentVariables.Chapter = 3;
    for(var i33=0;i33<buttonlist1.Length;i33++){
      buttonlist1[i33].SetActive(false);
    }
@@ -122,9 +127,9 @@ function ChangeChapter(number: int){
  }
 }
 
-
-
-function showText(level : String) {
+var textforhelp : ReadVoc ;
+function showText(level :int) {
+  PermanentVariables.CLevel = level;
     help.SetActive(true);
-    helptext.text  = "Moi  = Hello \nNäkemiin = Good bye";
+    helptext.text=textforhelp.returnText();  // = "Moi  = Hello \nNäkemiin = Good bye";
 }
