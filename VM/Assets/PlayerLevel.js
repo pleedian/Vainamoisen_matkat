@@ -8,13 +8,27 @@ public static class PermanentVariables
     public var Level : int = 1;
     public var Chapter : int = 1;
     public var CLevel : int = 0;
-
+ public var Chapter1:int[] = [0,0,0,0,0];
+  public var Chapter2:int[] = [0,0,0,0,0];
+ public var Chapter3:int[] = [0,0,0,0,0];
 }
 function Start() {
   fullXPWidth  = Screen.width/5;
 }
 
 function OnGUI() {
+  //XP : TODO this is will be moved to playscene: levelscene:
+  if(PermanentVariables.Experience >= PermanentVariables.NextXpLevel) {
+    if(PermanentVariables.Experience > PermanentVariables.NextXpLevel) {
+      PermanentVariables.Experience= PermanentVariables.Experience-PermanentVariables.NextXpLevel;
+    } else {
+        PermanentVariables.Experience = 0;
+      }
+      if(PermanentVariables.Level <10) {
+          PermanentVariables.Level+=1;
+      }
+      PermanentVariables.NextXpLevel= PermanentVariables.NextXpLevel*3 ;
+    }
   var playerlv = GameObject.FindGameObjectWithTag ("playerlevel");
 //  print(playerlv.transform.position.y);
   //XP BAR + LEVEL INDICATOR
