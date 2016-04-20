@@ -84,6 +84,7 @@ function Update () {
 function LoadLvl(name : int){
 //changes variable:
   PermanentVariables.CLevel =name;
+  print("LEVEL : "+ PermanentVariables.CLevel);
  SceneManagement.SceneManager.LoadScene("chapters/level");
 // Application.LoadLevel(name);
 }

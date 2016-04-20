@@ -1,15 +1,23 @@
 ﻿#pragma strict
 var playerDeleted : boolean ;
 var Timer:float = 0.0;
+var speed:float = 9.0;
 private var question : int;
 function Start () {
   playerDeleted=false;
-  question = 2;
+  if(PermanentVariables.CLevel==5) {
+    question = 5;
+    speed= 16;
+  } else {
+    question = 2;
+    speed =9;
+  }
 }
 var lostText : GameObject;
+var wonText : GameObject;
 function Update () {
     if(playerDeleted==false){
-      this.GetComponent.<Rigidbody2D>().AddForce(Vector2.left /9);
+      this.GetComponent.<Rigidbody2D>().AddForce(Vector2.left /speed);
     } else {
       this.GetComponent.<Rigidbody2D>().isKinematic = true;
       this.GetComponent.<Rigidbody2D>().velocity = Vector2.zero;
@@ -29,6 +37,7 @@ function OnCollisionEnter2D(coll: Collision2D) {
   if (coll.gameObject.tag == "Fire"){
     question--;
     if(question == 0) {
+      Instantiate(wonText,this.transform.position, Quaternion.identity);
       this.GetComponent.<Rigidbody2D>().isKinematic = true;
       this.GetComponent.<Rigidbody2D>().velocity = Vector2.zero;
 
