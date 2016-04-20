@@ -19,6 +19,17 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient4232">
+      <stop
+         style="stop-color:#acbbe4;stop-opacity:1;"
+         offset="0"
+         id="stop4234" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient4220">
       <stop
          style="stop-color:#c34b00;stop-opacity:0;"
@@ -789,7 +800,454 @@
        y1="400"
        x2="340"
        y2="360"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,742.36218)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232"
+       id="radialGradient4238"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-3"
+       id="radialGradient4238-8"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-3">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-7" />
+      <stop
+         style="stop-color:#dd1800;stop-opacity:0;"
+         offset="1"
+         id="stop4236-1" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257"
+       xlink:href="#linearGradient4232-3"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-34"
+       id="radialGradient4238-7"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-34">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-9" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-6" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-5"
+       xlink:href="#linearGradient4232-34"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-9"
+       id="radialGradient4238-0"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-96" />
+      <stop
+         style="stop-color:#e15eff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-8" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-3"
+       xlink:href="#linearGradient4232-9"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.5,0.33333333,-0.3354102,0.89442719,17.531153,-6.7497412)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-99"
+       id="radialGradient4238-84"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-99">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-5" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-53"
+       xlink:href="#linearGradient4232-99"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-7"
+       id="radialGradient4238-3"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-7">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-4" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-3" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-8"
+       xlink:href="#linearGradient4232-29"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-6"
+       id="radialGradient4238-80"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-6">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-8" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-19" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-89"
+       xlink:href="#linearGradient4232-6"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-2"
+       id="radialGradient4238-2"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-82" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-89" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-0"
+       xlink:href="#linearGradient4232-2"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-5"
+       id="radialGradient4238-1"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-5">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-86" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-12" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-4"
+       xlink:href="#linearGradient4232-5"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-8"
+       id="radialGradient4238-5"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-8">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-6" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-2" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-6"
+       xlink:href="#linearGradient4232-8"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-24"
+       id="radialGradient4238-39"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-24">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-61" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-82" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-1"
+       xlink:href="#linearGradient4232-24"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-29"
+       id="radialGradient4238-76"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-29">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-5" />
+      <stop
+         style="stop-color:#f4c500;stop-opacity:0;"
+         offset="1"
+         id="stop4236-20" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-03"
+       xlink:href="#linearGradient4232-29"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-1"
+       id="radialGradient4238-18"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-95" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-32" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-52"
+       xlink:href="#linearGradient4232-1"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-77"
+       id="radialGradient4238-6"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-77">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-22" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-9" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-41"
+       xlink:href="#linearGradient4232-77"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4232-82"
+       id="radialGradient4238-9"
+       cx="25"
+       cy="15"
+       fx="25"
+       fy="15"
+       r="5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4232-82">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4234-55" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4236-4" />
+    </linearGradient>
+    <radialGradient
+       r="5"
+       fy="15"
+       fx="25"
+       cy="15"
+       cx="25"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4257-9"
+       xlink:href="#linearGradient4232"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.25000004,0.66666669,-0.49999998,0.33333336,26.249998,-6.6666678)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -799,8 +1257,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="406.64935"
-     inkscape:cy="150.58503"
+     inkscape:cx="327.22078"
+     inkscape:cy="203.8553"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -841,7 +1299,10 @@
        height="400"
        x="0"
        y="0"
-       transform="translate(0,652.36218)" />
+       transform="translate(0,652.36218)"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        sodipodi:type="arc"
        style="fill:url(#radialGradient3787);fill-opacity:1;stroke:none"
@@ -859,23 +1320,35 @@
        height="120"
        x="0"
        y="280"
-       transform="translate(0,652.36218)" />
+       transform="translate(0,652.36218)"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:url(#linearGradient3813);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 0,280 640,0 0,-50 -120,-110 -80,30 -40,60 -40,20 -20,20 -10,-20 -30,20 -20,-90 -40,20 -30,40 -70,-10 -20,-50 -10,-40 -70,90 -40,20 z"
        id="path3801"
        inkscape:connector-curvature="0"
-       transform="translate(0,652.36218)" />
+       transform="translate(0,652.36218)"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        id="path3821"
        style="fill:url(#linearGradient3969);fill-opacity:1;stroke:#000000;stroke-width:0.98107088px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 176,797.36218 -35,61.875 21,-6.875 -21,41.25 21,-6.875 -21,41.25 21,-6.875 -21,41.25 70,0 -21,-41.25 21,6.875 -21,-41.25 21,6.875 -21,-41.25 21,6.875 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-4"
        style="fill:url(#linearGradient3872);fill-opacity:1;stroke:#000000;stroke-width:0.76376259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 90,812.36218 -25,52.5 15,-5.83333 -15,35 15,-5.83334 -15,35 15,-5.83333 -15,35 50,0 -15,-35 15,5.83333 -15,-35 15,5.83334 -15,-35 15,5.83333 z" />
+       d="m 90,812.36218 -25,52.5 15,-5.83333 -15,35 15,-5.83334 -15,35 15,-5.83333 -15,35 50,0 -15,-35 15,5.83333 -15,-35 15,5.83334 -15,-35 15,5.83333 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-1"
@@ -885,72 +1358,114 @@
        inkscape:connector-curvature="0"
        id="path3821-6"
        style="fill:url(#linearGradient3872-7);fill-opacity:1;stroke:#000000;stroke-width:0.77728158px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 60,842.36218 -25,54.375 15,-6.04167 -15,36.25 15,-6.04166 -15,36.25 15,-6.04167 -15,36.25 50,0 -15,-36.25 15,6.04167 -15,-36.25 15,6.04166 -15,-36.25 15,6.04167 z" />
+       d="m 60,842.36218 -25,54.375 15,-6.04167 -15,36.25 15,-6.04166 -15,36.25 15,-6.04167 -15,36.25 50,0 -15,-36.25 15,6.04167 -15,-36.25 15,6.04166 -15,-36.25 15,6.04167 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-5"
        style="fill:url(#linearGradient3872-9);fill-opacity:1;stroke:#000000;stroke-width:1.31339264px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 132,742.36218 -45,86.25 27,-9.58333 -27,57.5 27,-9.58334 -27,57.5 27,-9.58333 -27,57.5 90,0 -27,-57.5 27,9.58333 -27,-57.5 27,9.58334 -27,-57.5 27,9.58333 z" />
+       d="m 132,742.36218 -45,86.25 27,-9.58333 -27,57.5 27,-9.58334 -27,57.5 27,-9.58333 -27,57.5 90,0 -27,-57.5 27,9.58333 -27,-57.5 27,9.58334 -27,-57.5 27,9.58333 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-8"
        style="fill:url(#linearGradient3872-6);fill-opacity:1;stroke:#000000;stroke-width:0.6454972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 160,882.36218 -25,37.5 15,-4.16667 -15,25 15,-4.16666 -15,25 15,-4.16667 -15,25 50,0 -15,-25 15,4.16667 -15,-25 15,4.16666 -15,-25 15,4.16667 z" />
+       d="m 160,882.36218 -25,37.5 15,-4.16667 -15,25 15,-4.16666 -15,25 15,-4.16667 -15,25 50,0 -15,-25 15,4.16667 -15,-25 15,4.16666 -15,-25 15,4.16667 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-2"
        style="fill:url(#linearGradient3872-0);fill-opacity:1;stroke:#000000;stroke-width:0.65192026px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 268,874.02885 -30,31.875 18,-3.54167 -18,21.25 18,-3.54166 -18,21.25 18,-3.54167 -18,21.25 60,0 -18,-21.25 18,3.54167 -18,-21.25 18,3.54166 -18,-21.25 18,3.54167 z" />
+       d="m 268,874.02885 -30,31.875 18,-3.54167 -18,21.25 18,-3.54166 -18,21.25 18,-3.54167 -18,21.25 60,0 -18,-21.25 18,3.54167 -18,-21.25 18,3.54166 -18,-21.25 18,3.54167 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-11"
        style="fill:url(#linearGradient3872-4);fill-opacity:1;stroke:#000000;stroke-width:0.75828749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 222,854.02885 -30,43.125 18,-4.79167 -18,28.75 18,-4.79166 -18,28.75 18,-4.79167 -18,28.75 60,0 -18,-28.75 18,4.79167 -18,-28.75 18,4.79166 -18,-28.75 18,4.79167 z" />
+       d="m 222,854.02885 -30,43.125 18,-4.79167 -18,28.75 18,-4.79166 -18,28.75 18,-4.79167 -18,28.75 60,0 -18,-28.75 18,4.79167 -18,-28.75 18,4.79166 -18,-28.75 18,4.79167 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-19"
        style="fill:url(#linearGradient3872-93);fill-opacity:1;stroke:#000000;stroke-width:0.70710677px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 200,887.36218 -25,45 15,-5 -15,30 15,-5 -15,30 15,-5 -15,30.00002 50,0 -15,-30.00002 15,5 -15,-30 15,5 -15,-30 15,5 z" />
+       d="m 200,887.36218 -25,45 15,-5 -15,30 15,-5 -15,30 15,-5 -15,30.00002 50,0 -15,-30.00002 15,5 -15,-30 15,5 -15,-30 15,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-13"
        style="fill:url(#linearGradient3872-06);fill-opacity:1;stroke:#000000;stroke-width:0.48733974px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 289,898.61218 -19,28.125 11.4,-3.125 -11.4,18.75 11.4,-3.125 -11.4,18.75001 11.4,-3.125 -11.4,18.75001 38,0 -11.4,-18.75001 11.4,3.125 -11.4,-18.75001 11.4,3.125 -11.4,-18.75 11.4,3.125 z" />
+       d="m 289,898.61218 -19,28.125 11.4,-3.125 -11.4,18.75 11.4,-3.125 -11.4,18.75001 11.4,-3.125 -11.4,18.75001 38,0 -11.4,-18.75001 11.4,3.125 -11.4,-18.75001 11.4,3.125 -11.4,-18.75 11.4,3.125 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-3"
        style="fill:url(#linearGradient3872-1);fill-opacity:1;stroke:#000000;stroke-width:0.77459669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 358,852.36218 -30,45 18,-5 -18,30 18,-5 -18,30 18,-5 -18,30 60,0 -18,-30 18,5 -18,-30 18,5 -18,-30 18,5 z" />
+       d="m 358,852.36218 -30,45 18,-5 -18,30 18,-5 -18,30 18,-5 -18,30 60,0 -18,-30 18,5 -18,-30 18,5 -18,-30 18,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-49"
        style="fill:url(#linearGradient3872-8);fill-opacity:1;stroke:#000000;stroke-width:0.77459669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 318,877.36218 -30,45 18,-5 -18,30 18,-5 -18,30 18,-5 -18,30.00002 60,0 -18,-30.00002 18,5 -18,-30 18,5 -18,-30 18,5 z" />
+       d="m 318,877.36218 -30,45 18,-5 -18,30 18,-5 -18,30 18,-5 -18,30.00002 60,0 -18,-30.00002 18,5 -18,-30 18,5 -18,-30 18,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-82"
        style="fill:url(#linearGradient3872-81);fill-opacity:1;stroke:#000000;stroke-width:0.54772258px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 396,852.36218 -15,45 9,-5 -9,30 9,-5 -9,30 9,-5 -9,30 30,0 -9,-30 9,5 -9,-30 9,5 -9,-30 9,5 z" />
+       d="m 396,852.36218 -15,45 9,-5 -9,30 9,-5 -9,30 9,-5 -9,30 30,0 -9,-30 9,5 -9,-30 9,5 -9,-30 9,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-78"
        style="fill:url(#linearGradient3872-94);fill-opacity:1;stroke:#000000;stroke-width:0.70710677px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 420,877.36218 -25,45 15,-5 -15,30 15,-5 -15,30 15,-5 -15,30.00002 50,0 -15,-30.00002 15,5 -15,-30 15,5 -15,-30 15,5 z" />
+       d="m 420,877.36218 -25,45 15,-5 -15,30 15,-5 -15,30 15,-5 -15,30.00002 50,0 -15,-30.00002 15,5 -15,-30 15,5 -15,-30 15,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-42"
        style="fill:url(#linearGradient3872-15);fill-opacity:1;stroke:#000000;stroke-width:0.89442718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 364,892.36218 -40,45 24,-5 -24,30 24,-5 -24,30 24,-5 -24,30.00002 80,0 -24,-30.00002 24,5 -24,-30 24,5 -24,-30 24,5 z" />
+       d="m 364,892.36218 -40,45 24,-5 -24,30 24,-5 -24,30 24,-5 -24,30.00002 80,0 -24,-30.00002 24,5 -24,-30 24,5 -24,-30 24,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-7"
        style="fill:url(#linearGradient3872-60);fill-opacity:1;stroke:#000000;stroke-width:0.83666003px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 586,852.36218 -35,45 21,-5 -21,30 21,-5 -21,30 21,-5 -21,30 70,0 -21,-30 21,5 -21,-30 21,5 -21,-30 21,5 z" />
+       d="m 586,852.36218 -35,45 21,-5 -21,30 21,-5 -21,30 21,-5 -21,30 70,0 -21,-30 21,5 -21,-30 21,5 -21,-30 21,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-83"
        style="fill:url(#linearGradient3872-77);fill-opacity:1;stroke:#000000;stroke-width:0.74285489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 569.46,855.69551 -23.65,52.5 14.19,-5.83333 -14.19,35 14.19,-5.83334 -14.19,35 14.19,-5.83333 -14.19,35 47.3,0 -14.19,-35 14.19,5.83333 -14.19,-35 14.19,5.83334 -14.19,-35 14.19,5.83333 z" />
+       d="m 569.46,855.69551 -23.65,52.5 14.19,-5.83333 -14.19,35 14.19,-5.83334 -14.19,35 14.19,-5.83333 -14.19,35 47.3,0 -14.19,-35 14.19,5.83333 -14.19,-35 14.19,5.83334 -14.19,-35 14.19,5.83333 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path3821-65"
@@ -960,14 +1475,213 @@
        inkscape:connector-curvature="0"
        id="path3821-9"
        style="fill:url(#linearGradient3872-18);fill-opacity:1;stroke:#000000;stroke-width:0.52915025px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 526,847.36218 -14,45 8.4,-5 -8.4,30 8.4,-5 -8.4,30 8.4,-5 -8.4,30.00002 28,0 -8.4,-30.00002 8.4,5 -8.4,-30 8.4,5 -8.4,-30 8.4,5 z" />
+       d="m 526,847.36218 -14,45 8.4,-5 -8.4,30 8.4,-5 -8.4,30 8.4,-5 -8.4,30.00002 28,0 -8.4,-30.00002 8.4,5 -8.4,-30 8.4,5 -8.4,-30 8.4,5 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:url(#linearGradient4226);fill-opacity:1;stroke:none"
        id="rect4218"
        width="640"
        height="39.999966"
        x="0"
-       y="360"
-       transform="translate(0,652.36218)" />
+       y="1102.3622"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4238);fill-opacity:1;stroke:none"
+       id="path4230"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       transform="translate(0,652.36218)"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(410,672.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257);fill-opacity:1;stroke:none"
+       id="path4230-0"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,605,657.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-5);fill-opacity:1;stroke:none"
+       id="path4230-1"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(2,0,0,1.5,510,707.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-3);fill-opacity:1;stroke:none"
+       id="path4230-4"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,440,677.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-53);fill-opacity:1;stroke:none"
+       id="path4230-3"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,60,687.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-8);fill-opacity:1.0;stroke:none"
+       id="path4230-08"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,200,657.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-89);fill-opacity:1;stroke:none"
+       id="path4230-7"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,90,757.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-0);fill-opacity:1;stroke:none"
+       id="path4230-78"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(280,692.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-4);fill-opacity:1;stroke:none"
+       id="path4230-2"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.5,0,0,0.5,450,717.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-6);fill-opacity:1;stroke:none"
+       id="path4230-5"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(580,712.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-1);fill-opacity:1;stroke:none"
+       id="path4230-19"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(530,652.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-03);fill-opacity:1;stroke:none"
+       id="path4230-9"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(560,782.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-52);fill-opacity:1;stroke:none"
+       id="path4230-58"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(300,652.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-41);fill-opacity:1;stroke:none"
+       id="path4230-96"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(2,0,0,1.5,115,672.36218)"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4257-9);fill-opacity:1.0;stroke:none"
+       id="path4230-12"
+       sodipodi:cx="25"
+       sodipodi:cy="15"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m 30,15 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="C:\git\Vainamoisen_matkat\mainbg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
