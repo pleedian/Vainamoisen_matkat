@@ -15,21 +15,35 @@ var chapter1_5_fi= ["Moi", "Näkemiin"];
 function Start () {
   var level = PermanentVariables.CLevel;
   var chapter=  PermanentVariables.Chapter;
+  //naming chapter1_ and then level number
+   chapter1_1_eng= ["Hello", "Good bye"];
+   chapter1_1_fi= ["Moi", "Näkemiin"];
+   chapter1_2_eng= ["", "Good bye"];
+   chapter1_2_fi= ["Moi", "Näkemiin"];
+   chapter1_3_eng= ["Hello", "Good bye"];
+   chapter1_3_fi= ["Moi", "Näkemiin"];
+   chapter1_4_eng= ["Red", "Green", "Blue", "Black", "White"];
+   chapter1_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+  //last chapter has all words:
+   chapter1_5_eng= ["Hello", "Good bye"];
+   chapter1_5_fi= ["Moi", "Näkemiin"];
+   askQuestions();
 
-  askQuestions();
 
 }
 
 function Update () {
 
+
 }
 
 //TODO function where questions are randomized and showed to user:
 function askQuestions(){
-  var randSize=0;
+  //var randSize=0;
   if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==1)
-      randSize = chapter1_1_eng.Length;
-      var random_number = Random.Range(0,randSize);
+
+      var random_number = Random.Range(0,chapter1_1_eng.length);
+      print(random_number);
       var object = GameObject.Find("Question");
       if(object) { //TODO randomize place of answer:
         var question= GameObject.Find("Question").GetComponent.<UI.Text>();
@@ -40,14 +54,22 @@ function askQuestions(){
         question.text = chapter1_1_eng[random_number];
       }
     //helptext = helptext2.GetComponent.<UI.Text>();
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2)
-      randSize = chapter1_2_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3)
-      randSize = chapter1_3_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4)
-      randSize = chapter1_4_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5)
-      randSize = chapter1_5_eng.Length;
+  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2){
+
+  }
+      //randSize = chapter1_2_eng.Length;
+  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3){
+
+  }
+      //randSize = chapter1_3_eng.Length;
+  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4){
+
+  }
+      //randSize = chapter1_4_eng.Length;
+  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5){
+
+  }
+      //randSize = chapter1_5_eng.Length;
 }
 
 public function returnText(){
