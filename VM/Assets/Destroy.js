@@ -14,7 +14,9 @@ function OnCollisionEnter2D(coll: Collision2D) {
     var exp_pos= GameObject.Find("enemy");
     Instantiate(exp,this.transform.position, Quaternion.identity);
   //  exp.gameObject.GetComponent.<ParticleSystem>().enableEmission = true;
-    PermanentVariables.Experience += 20;
+
+  PermanentVariables.Experience += 20;
+
 
 
       Destroy(this.gameObject);

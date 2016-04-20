@@ -7,10 +7,19 @@ function Start () {
   playerDeleted=false;
   if(PermanentVariables.CLevel==5) {
     question = 5;
-    speed= 16;
+    if(PermanentVariables.Level<3){
+      speed= 23 ;
+    }else {
+      speed =25 ;
+    }
   } else {
     question = 2;
-    speed =9;
+    if(PermanentVariables.Level<3){
+      speed =10 ;
+    }else {
+      speed = 12;
+    }
+
   }
 }
 var lostText : GameObject;
@@ -40,8 +49,62 @@ function OnCollisionEnter2D(coll: Collision2D) {
       Instantiate(wonText,this.transform.position, Quaternion.identity);
       this.GetComponent.<Rigidbody2D>().isKinematic = true;
       this.GetComponent.<Rigidbody2D>().velocity = Vector2.zero;
+      var fullpoints: boolean= false;
+      if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==1 &&PermanentVariables.Chapter1[0]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2 &&PermanentVariables.Chapter1[1]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3 &&PermanentVariables.Chapter1[2]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4 &&PermanentVariables.Chapter1[3]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5 &&PermanentVariables.Chapter1[4]!=0) {
+        fullpoints=true;
+      }
+      /////////CHAPTER 2
+      if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==1 &&PermanentVariables.Chapter2[0]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==2 &&PermanentVariables.Chapter2[1]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==3 &&PermanentVariables.Chapter2[2]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==4 &&PermanentVariables.Chapter2[3]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==5 &&PermanentVariables.Chapter2[4]!=0) {
+        fullpoints=true;
+      }
+     //////////CHAPTER 3
+      if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==1 &&PermanentVariables.Chapter3[0]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==2 &&PermanentVariables.Chapter3[1]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==3 &&PermanentVariables.Chapter3[2]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==4 &&PermanentVariables.Chapter3[3]!=0) {
+        fullpoints=true;
+      }
+      if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==5 &&PermanentVariables.Chapter3[4]!=0) {
+        fullpoints=true;
+      }
 
-        PermanentVariables.Experience += 20;
+      if(fullpoints) {
+        print("second time");
+      PermanentVariables.Experience += 30;
+      }else {
+        print("FIRST TIME");
+        PermanentVariables.Experience += (50*PermanentVariables.Level)  ;
+      }
 
 
 
@@ -77,6 +140,8 @@ function OnCollisionEnter2D(coll: Collision2D) {
           PermanentVariables.Chapter3[3]=1;
         if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==5)
           PermanentVariables.Chapter3[4]=1;
+
+
 
         yield WaitForSeconds (0.4);
         SceneManagement.SceneManager.LoadScene("chapters");
