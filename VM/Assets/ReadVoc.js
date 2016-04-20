@@ -1,32 +1,22 @@
 ﻿#pragma strict
 //naming chapter1_ and then level number
-var chapter1_1_eng= ["Hello", "Good bye"];
-var chapter1_1_fi= ["Moi", "Näkemiin"];
-var chapter1_2_eng= ["", "Good bye"];
-var chapter1_2_fi= ["Moi", "Näkemiin"];
-var chapter1_3_eng= ["Hello", "Good bye"];
-var chapter1_3_fi= ["Moi", "Näkemiin"];
-var chapter1_4_eng= ["Red", "Green", "Blue", "Black", "White"];
-var chapter1_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+private var  chapter1_1_eng= ["Hello", "Good bye"];
+private var   chapter1_1_fi= ["Moi", "Näkemiin"];
+private var   chapter1_2_eng= ["Tomorrow", "Today"];
+private var   chapter1_2_fi= ["Huomenna", "Tänään"];
+private var   chapter1_3_eng= ["Day", "Month", "Year"];
+private var  chapter1_3_fi= ["Päivä", "Kuukausi", "Vuosi"];
+private var   chapter1_4_eng= ["Red", "Green", "Blue", "Black", "White"];
+private var   chapter1_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
 //last chapter has all words:
-var chapter1_5_eng= ["Hello", "Good bye"];
-var chapter1_5_fi= ["Moi", "Näkemiin"];
-
+private var   chapter1_5_eng= ["Hello", "Good bye"];
+private var   chapter1_5_fi= ["Moi", "Näkemiin"];
+private var   random_number : int;
+var field : UI.InputField;
 function Start () {
   var level = PermanentVariables.CLevel;
   var chapter=  PermanentVariables.Chapter;
-  //naming chapter1_ and then level number
-   chapter1_1_eng= ["Hello", "Good bye"];
-   chapter1_1_fi= ["Moi", "Näkemiin"];
-   chapter1_2_eng= ["", "Good bye"];
-   chapter1_2_fi= ["Moi", "Näkemiin"];
-   chapter1_3_eng= ["Hello", "Good bye"];
-   chapter1_3_fi= ["Moi", "Näkemiin"];
-   chapter1_4_eng= ["Red", "Green", "Blue", "Black", "White"];
-   chapter1_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
-  //last chapter has all words:
-   chapter1_5_eng= ["Hello", "Good bye"];
-   chapter1_5_fi= ["Moi", "Näkemiin"];
+  random_number=0;
    askQuestions();
 
 
@@ -34,42 +24,82 @@ function Start () {
 
 function Update () {
 
+  if (Input.GetKeyDown(KeyCode.Return)) {
+
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==1)
+      print("CHAPTER 1 LEVEL1");
+        var Aobject = GameObject.Find("Answer");
+        if(Aobject) { //TODO randomize place of answer:
+          var ans= GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text;
+          if(ans.Equals(chapter1_1_fi[random_number])) {
+               GameObject.Find("player").GetComponent(Shoot).shoot();
+              askQuestions();
+          } else {
+              if(PermanentVariables.Experience>=10 )
+                PermanentVariables.Experience -= 10;
+          }
+        }
+      //helptext = helptext2.GetComponent.<UI.Text>();
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2){
+
+    }
+        //randSize = chapter1_2_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3){
+
+    }
+        //randSize = chapter1_3_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4){
+
+    }
+        //randSize = chapter1_4_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5){
+
+    }
+        //randSize = chapter1_5_eng.Length;
+  } //if key enter
 
 }
 
 //TODO function where questions are randomized and showed to user:
 function askQuestions(){
   //var randSize=0;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==1)
 
-      var random_number = Random.Range(0,chapter1_1_eng.length);
-      print(random_number);
-      var object = GameObject.Find("Question");
-      if(object) { //TODO randomize place of answer:
-        var question= GameObject.Find("Question").GetComponent.<UI.Text>();
-        var a1= GameObject.Find("Answer1").transform.GetComponentInChildren.<UI.Text>();
-        a1.text = chapter1_1_fi[random_number];
-        var a2= GameObject.Find("Answer2");
-        var a3= GameObject.Find("Answer3");
-        question.text = chapter1_1_eng[random_number];
-      }
-    //helptext = helptext2.GetComponent.<UI.Text>();
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2){
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==1)
 
-  }
-      //randSize = chapter1_2_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3){
+        random_number = Random.Range(0,chapter1_1_eng.length);
+        print(random_number);
+        var object = GameObject.Find("Question");
+        if(object) {
+          var question= GameObject.Find("Question").GetComponent.<UI.Text>();
+          question.text = chapter1_1_eng[random_number];
 
-  }
-      //randSize = chapter1_3_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4){
+        }
+        /*if(object) { //TODO randomize place of answer:
+          var question= GameObject.Find("Question").GetComponent.<UI.Text>();
+          var a1= GameObject.Find("Answer1").transform.GetComponentInChildren.<UI.Text>();
+          a1.text = chapter1_1_fi[random_number];
+          var a2= GameObject.Find("Answer2");
+          var a3= GameObject.Find("Answer3");
+          question.text = chapter1_1_eng[random_number];
+        }*/
+      //helptext = helptext2.GetComponent.<UI.Text>();
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==2){
 
-  }
-      //randSize = chapter1_4_eng.Length;
-  if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5){
+    }
+        //randSize = chapter1_2_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==3){
 
-  }
-      //randSize = chapter1_5_eng.Length;
+    }
+        //randSize = chapter1_3_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==4){
+
+    }
+        //randSize = chapter1_4_eng.Length;
+    if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5){
+
+    }
+        //randSize = chapter1_5_eng.Length;
+
 }
 
 public function returnText(){

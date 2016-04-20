@@ -1,6 +1,7 @@
 ﻿#pragma strict
-
+private var count : int;
 function Start () {
+  count=0;
 
 }
 
@@ -11,11 +12,15 @@ var exp : GameObject;
 function OnCollisionEnter2D(coll: Collision2D) {
 	if (coll.gameObject.tag == "enemy"){
     var exp_pos= GameObject.Find("enemy");
-    exp.gameObject.GetComponent.<ParticleSystem>().enableEmission = true;
+    Instantiate(exp,this.transform.position, Quaternion.identity);
+  //  exp.gameObject.GetComponent.<ParticleSystem>().enableEmission = true;
     PermanentVariables.Experience += 20;
-    Destroy(this.gameObject);
+
+
+      Destroy(this.gameObject);
+
+
   }
 		//coll.gameObject.SendMessage("ApplyDamage", 10);
-
 
 }

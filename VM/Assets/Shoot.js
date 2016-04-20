@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 function Start () {
+
   //shoot();
 }
 
@@ -15,4 +16,5 @@ function shoot(){
   var gun = player.transform.Find("gun").gameObject;
   var bullet = Instantiate(ammo,gun.transform.position, Quaternion.identity);
   bullet.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * 250);
+
 }
