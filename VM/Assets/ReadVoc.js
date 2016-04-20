@@ -2,8 +2,8 @@
 //naming chapter1_ and then level number
 private var  chapter1_1_eng= ["Hello", "Good bye"];
 private var   chapter1_1_fi= ["Moi", "Näkemiin"];
-private var   chapter1_2_eng= ["Tomorrow", "Today"];
-private var   chapter1_2_fi= ["Huomenna", "Tänään"];
+private var   chapter1_2_eng= ["Tomorrow", "Today", "Yesterday"];
+private var   chapter1_2_fi= ["Huomenna", "Tänään", "Eilen"];
 private var   chapter1_3_eng= ["Day", "Month", "Year"];
 private var  chapter1_3_fi= ["Päivä", "Kuukausi", "Vuosi"];
 private var   chapter1_4_eng= ["Red", "Green", "Blue", "Black", "White"];
@@ -11,6 +11,34 @@ private var   chapter1_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoi
 //last chapter has all words:
 private var   chapter1_5_eng= ["Hello", "Good bye","Tomorrow", "Today", "Day", "Month", "Year","Red", "Green", "Blue", "Black", "White"];
 private var   chapter1_5_fi= ["Moi", "Näkemiin", "Huomenna", "Tänään","Päivä", "Kuukausi", "Vuosi","Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+
+//naming chapter1_ and then level number
+private var  chapter2_1_eng= ["Hello", "Good bye" ];
+private var   chapter2_1_fi= ["Moi", "Näkemiin"];
+private var   chapter2_2_eng= ["Tomorrow", "Today"];
+private var   chapter2_2_fi= ["Huomenna", "Tänään"];
+private var   chapter2_3_eng= ["Day", "Month", "Year"];
+private var  chapter2_3_fi= ["Päivä", "Kuukausi", "Vuosi"];
+private var   chapter2_4_eng= ["Red", "Green", "Blue", "Black", "White"];
+private var   chapter2_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+//last chapter has all words:
+private var   chapter2_5_eng= ["Hello", "Good bye","Tomorrow", "Today", "Day", "Month", "Year","Red", "Green", "Blue", "Black", "White"];
+private var   chapter2_5_fi= ["Moi", "Näkemiin", "Huomenna", "Tänään","Päivä", "Kuukausi", "Vuosi","Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+
+
+//naming chapter1_ and then level number
+private var  chapter3_1_eng= ["Hello", "Good bye"];
+private var   chapter3_1_fi= ["Moi", "Näkemiin"];
+private var   chapter3_2_eng= ["Tomorrow", "Today"];
+private var   chapter3_2_fi= ["Huomenna", "Tänään"];
+private var   chapter3_3_eng= ["Day", "Month", "Year"];
+private var  chapter3_3_fi= ["Päivä", "Kuukausi", "Vuosi"];
+private var   chapter3_4_eng= ["Red", "Green", "Blue", "Black", "White"];
+private var   chapter3_4_fi= ["Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+//last chapter has all words:
+private var   chapter3_5_eng= ["Hello", "Good bye","Tomorrow", "Today", "Day", "Month", "Year","Red", "Green", "Blue", "Black", "White"];
+private var   chapter3_5_fi= ["Moi", "Näkemiin", "Huomenna", "Tänään","Päivä", "Kuukausi", "Vuosi","Punainen", "Vihreä", "Sininen", "Musta", "Valkoinen"];
+
 
 
 private var   random_number : int;
