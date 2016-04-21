@@ -35,4 +35,8 @@ function OnGUI() {
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth, 15), xpbar, ScaleMode.ScaleAndCrop, true, 0 );
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth *(PermanentVariables.Experience/ PermanentVariables.NextXpLevel), 15), xpbar_full, ScaleMode.ScaleAndCrop, true, 0 );
   GUI.Label(Rect (Screen.width/2-75,Screen.height - 27,100,50), "Level: "+PermanentVariables.Level.ToString());
+  if(GameObject.Find("C1level_1")){
+    print("found level1");
+    GameObject.Find("C1level_1").SetActive(false);
+  }
 }

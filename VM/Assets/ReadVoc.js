@@ -56,6 +56,10 @@ function Start () {
 }
 
 function Update () {
+  if(GameObject.Find("C1level_1")){
+    print("found level1");
+    GameObject.Find("C1level_1").SetActive(false);
+  }
   var Aobject = GameObject.Find("Answer");
   var ans : String ;
   if(Aobject) {
