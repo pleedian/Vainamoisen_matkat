@@ -35,21 +35,59 @@ function OnGUI() {
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth, 15), xpbar, ScaleMode.ScaleAndCrop, true, 0 );
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth *(PermanentVariables.Experience/ PermanentVariables.NextXpLevel), 15), xpbar_full, ScaleMode.ScaleAndCrop, true, 0 );
   GUI.Label(Rect (Screen.width/2-75,Screen.height - 27,100,50), "Level: "+PermanentVariables.Level.ToString());
-  if(GameObject.Find("C1level_1")){
+  /*if(GameObject.Find("C1level_1")){
     print("found level1");
     GameObject.Find("C1level_1").SetActive(false);
+  }*/
+
+  //var path : String [] = EditorApplication.currentScene.Split(char.Parse("/"));
+  //path[path.Length -1] == "chapters.unity"
+
+  print(PermanentVariables.Chapter1[0]+","+PermanentVariables.Chapter1[1]+","+PermanentVariables.Chapter1[2]+","+PermanentVariables.Chapter1[3]+","+PermanentVariables.Chapter1[4]);
+
+  if(GameObject.Find("C1level_2") && !PermanentVariables.Chapter1[0]){
+    GameObject.Find("C1level_2").SetActive(false);
+  }
+  if(GameObject.Find("C1level_3") && !PermanentVariables.Chapter1[1]){
+    GameObject.Find("C1level_3").SetActive(false);
+  }
+  if(GameObject.Find("C1level_4") && !PermanentVariables.Chapter1[2]){
+    GameObject.Find("C1level_4").SetActive(false);
+  }
+  if(GameObject.Find("C1level_5") && !PermanentVariables.Chapter1[3]){
+    GameObject.Find("C1level_5").SetActive(false);
   }
 
-  var path : String [] = EditorApplication.currentScene.Split(char.Parse("/"));
-  //path[path.Length -1] == "chapters.unity"
-  if(GameObject.Find("C1level_4") && PermanentVariables.Chapter1[3]){
-    GameObject.Find("C1level_4").SetActive(false);
-    //GetComponent("C1level_1").enabled = false;
+  if(GameObject.Find("C2level_1") && !PermanentVariables.Chapter1[4]){
+    GameObject.Find("C2level_1").SetActive(false);
   }
-  //GetComponent("C1level_1").enabled = false;
-  //GetComponent("C1level_4").enabled = false;
-  //GetComponent("C2level_2").enabled = false;
-  //GetComponent("C2level_3").enabled = false;
-  //GetComponent("C3level_5").enabled = false;
+  if(GameObject.Find("C2level_2") && !PermanentVariables.Chapter2[0]){
+    GameObject.Find("C2level_2").SetActive(false);
+  }
+  if(GameObject.Find("C2level_3") && !PermanentVariables.Chapter2[1]){
+    GameObject.Find("C2level_3").SetActive(false);
+  }
+  if(GameObject.Find("C2level_4") && !PermanentVariables.Chapter2[2]){
+    GameObject.Find("C2level_4").SetActive(false);
+  }
+  if(GameObject.Find("C2level_5") && !PermanentVariables.Chapter2[3]){
+    GameObject.Find("C2level_5").SetActive(false);
+  }
+
+  if(GameObject.Find("C3level_1") && !PermanentVariables.Chapter2[4]){
+    GameObject.Find("C3level_1").SetActive(false);
+  }
+  if(GameObject.Find("C3level_2") && !PermanentVariables.Chapter3[0]){
+    GameObject.Find("C3level_2").SetActive(false);
+  }
+  if(GameObject.Find("C3level_3") && !PermanentVariables.Chapter3[1]){
+    GameObject.Find("C3level_3").SetActive(false);
+  }
+  if(GameObject.Find("C3level_4") && !PermanentVariables.Chapter3[2]){
+    GameObject.Find("C3level_4").SetActive(false);
+  }
+  if(GameObject.Find("C3level_5") && !PermanentVariables.Chapter3[3]){
+    GameObject.Find("C3level_5").SetActive(false);
+  }
 
 }

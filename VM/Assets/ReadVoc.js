@@ -56,10 +56,10 @@ function Start () {
 }
 
 function Update () {
-  if(GameObject.Find("C1level_1")){
+  /*if(GameObject.Find("C1level_1")){
     print("found level1");
     GameObject.Find("C1level_1").SetActive(false);
-  }
+  }*/
   var Aobject = GameObject.Find("Answer");
   var ans : String ;
   if(Aobject) {
@@ -127,6 +127,150 @@ function Update () {
     if(PermanentVariables.Chapter==1 && PermanentVariables.CLevel==5){
       if(Aobject) { //TODO randomize place of answer:
         if(ans.ToUpper().Equals(chapter1_5_fi[random_number].ToUpper())) {
+              if(GameObject.Find("player"))
+                  GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+
+
+
+    //chapter 2
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==1) {
+        if(Aobject) { //TODO randomize place of answer:
+          if(ans.ToUpper().Equals(chapter2_1_fi[random_number].ToUpper())) {
+                 if(GameObject.Find("player"))
+                 GameObject.Find("player").GetComponent(Shoot).shoot();
+              askQuestions();
+          } else {
+              if(PermanentVariables.Experience>=10 )
+                PermanentVariables.Experience -= 10;
+          }
+          GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+        }
+    }
+      //helptext = helptext2.GetComponent.<UI.Text>();
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==2){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter2_2_fi[random_number].ToUpper())) {
+              if(GameObject.Find("player"))
+               GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_2_eng.Length;
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==3){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter2_3_fi[random_number].ToUpper())) {
+               if(GameObject.Find("player"))
+               GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_3_eng.Length;
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==4){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter2_4_fi[random_number].ToUpper())) {
+                if(GameObject.Find("player"))
+                GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_4_eng.Length;
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==5){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter2_5_fi[random_number].ToUpper())) {
+              if(GameObject.Find("player"))
+                  GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+
+    //chapter 3
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==1) {
+        if(Aobject) { //TODO randomize place of answer:
+          if(ans.ToUpper().Equals(chapter3_1_fi[random_number].ToUpper())) {
+                 if(GameObject.Find("player"))
+                 GameObject.Find("player").GetComponent(Shoot).shoot();
+              askQuestions();
+          } else {
+              if(PermanentVariables.Experience>=10 )
+                PermanentVariables.Experience -= 10;
+          }
+          GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+        }
+    }
+      //helptext = helptext2.GetComponent.<UI.Text>();
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==2){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter3_2_fi[random_number].ToUpper())) {
+              if(GameObject.Find("player"))
+               GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_2_eng.Length;
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==3){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter3_3_fi[random_number].ToUpper())) {
+               if(GameObject.Find("player"))
+               GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_3_eng.Length;
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==4){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter3_4_fi[random_number].ToUpper())) {
+                if(GameObject.Find("player"))
+                GameObject.Find("player").GetComponent(Shoot).shoot();
+            askQuestions();
+        } else {
+            if(PermanentVariables.Experience>=10 )
+              PermanentVariables.Experience -= 10;
+        }
+        GameObject.Find("Answer").GetComponentInChildren.<UI.InputField>().text="";
+      }
+    }
+        //randSize = chapter1_4_eng.Length;
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==5){
+      if(Aobject) { //TODO randomize place of answer:
+        if(ans.ToUpper().Equals(chapter3_5_fi[random_number].ToUpper())) {
               if(GameObject.Find("player"))
                   GameObject.Find("player").GetComponent(Shoot).shoot();
             askQuestions();
@@ -205,7 +349,107 @@ function askQuestions(){
 
       }
     }
-        //randSize = chapter1_5_eng.Length;
+
+
+
+    //chapter 2
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==1) {
+
+        random_number = Random.Range(0,chapter2_1_eng.length);
+        print(random_number);
+        object = GameObject.Find("Question");
+        if(object) {
+          question= GameObject.Find("Question").GetComponent.<UI.Text>();
+          question.text = chapter2_1_eng[random_number];
+
+        }
+    }
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==2){
+      random_number = Random.Range(0,chapter2_2_eng.length);
+      object2 = GameObject.Find("Question");
+      if(object2) {
+        question2= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question2.text = chapter2_2_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==3){
+      random_number = Random.Range(0,chapter2_3_eng.length);
+      object3 = GameObject.Find("Question");
+      if(object3) {
+        question3= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question3.text = chapter2_3_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==4){
+      random_number = Random.Range(0,chapter2_4_eng.length);
+      object4 = GameObject.Find("Question");
+      if(object4) {
+        question4= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question4.text = chapter2_4_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==2 && PermanentVariables.CLevel==5){
+      random_number = Random.Range(0,chapter2_5_eng.length);
+      object5 = GameObject.Find("Question");
+      if(object5) {
+        question5= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question5.text = chapter2_5_eng[random_number];
+
+      }
+    }
+
+    //chapter 3
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==1) {
+
+        random_number = Random.Range(0,chapter3_1_eng.length);
+        print(random_number);
+        object = GameObject.Find("Question");
+        if(object) {
+          question= GameObject.Find("Question").GetComponent.<UI.Text>();
+          question.text = chapter3_1_eng[random_number];
+
+        }
+    }
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==2){
+      random_number = Random.Range(0,chapter3_2_eng.length);
+      object2 = GameObject.Find("Question");
+      if(object2) {
+        question2= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question2.text = chapter3_2_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==3){
+      random_number = Random.Range(0,chapter3_3_eng.length);
+      object3 = GameObject.Find("Question");
+      if(object3) {
+        question3= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question3.text = chapter3_3_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==4){
+      random_number = Random.Range(0,chapter3_4_eng.length);
+      object4 = GameObject.Find("Question");
+      if(object4) {
+        question4= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question4.text = chapter3_4_eng[random_number];
+
+      }
+    }
+    if(PermanentVariables.Chapter==3 && PermanentVariables.CLevel==5){
+      random_number = Random.Range(0,chapter3_5_eng.length);
+      object5 = GameObject.Find("Question");
+      if(object5) {
+        question5= GameObject.Find("Question").GetComponent.<UI.Text>();
+        question5.text = chapter3_5_eng[random_number];
+
+      }
+    }
+
 
 }
 
