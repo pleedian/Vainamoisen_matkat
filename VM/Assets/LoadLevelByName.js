@@ -67,13 +67,13 @@ function Update () {
       PermanentVariables.NextXpLevel= PermanentVariables.NextXpLevel*3 ;
     }
   if(playerlevel) {
-    if(PermanentVariables.Level==1)
+    if(PermanentVariables.Level==1 || PermanentVariables.Level==2)
       playerlevel.text  = "Beginner";
-    if(PermanentVariables.Level==3)
+    if(PermanentVariables.Level==3 || PermanentVariables.Level==4)
       playerlevel.text  = "Novice";
-    if(PermanentVariables.Level==5)
+    if(PermanentVariables.Level==5 || PermanentVariables.Level==6)
       playerlevel.text  = "Mediocre";
-    if(PermanentVariables.Level==7)
+    if(PermanentVariables.Level==7  || PermanentVariables.Level==8  || PermanentVariables.Level==9)
       playerlevel.text  = "Master";
     if(PermanentVariables.Level==10)
       playerlevel.text  = "Expert";
