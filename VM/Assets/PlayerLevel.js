@@ -8,9 +8,9 @@ public static class PermanentVariables
     public var Level : int = 1;
     public var Chapter : int = 1;
     public var CLevel : int = 0;
- public var Chapter1:int[] = [0,0,0,0,0];
-  public var Chapter2:int[] = [0,0,0,0,0];
- public var Chapter3:int[] = [0,0,0,0,0];
+    public var Chapter1:int[] = [0,0,0,0,0];
+    public var Chapter2:int[] = [0,0,0,0,0];
+    public var Chapter3:int[] = [0,0,0,0,0];
 }
 function Start() {
   fullXPWidth  = Screen.width/5;
@@ -30,7 +30,7 @@ function OnGUI() {
       PermanentVariables.NextXpLevel= PermanentVariables.NextXpLevel*3 ;
     }
   var playerlv = GameObject.FindGameObjectWithTag ("playerlevel");
-//  print(playerlv.transform.position.y);
+  //  print(playerlv.transform.position.y);
   //XP BAR + LEVEL INDICATOR
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth, 15), xpbar, ScaleMode.ScaleAndCrop, true, 0 );
   GUI.DrawTexture(new Rect(Screen.width/2, Screen.height - 50, fullXPWidth *(PermanentVariables.Experience/ PermanentVariables.NextXpLevel), 15), xpbar_full, ScaleMode.ScaleAndCrop, true, 0 );
@@ -39,4 +39,17 @@ function OnGUI() {
     print("found level1");
     GameObject.Find("C1level_1").SetActive(false);
   }
+
+  var path : String [] = EditorApplication.currentScene.Split(char.Parse("/"));
+  //path[path.Length -1] == "chapters.unity"
+  if(GameObject.Find("C1level_4") && PermanentVariables.Chapter1[3]){
+    GameObject.Find("C1level_4").SetActive(false);
+    //GetComponent("C1level_1").enabled = false;
+  }
+  //GetComponent("C1level_1").enabled = false;
+  //GetComponent("C1level_4").enabled = false;
+  //GetComponent("C2level_2").enabled = false;
+  //GetComponent("C2level_3").enabled = false;
+  //GetComponent("C3level_5").enabled = false;
+
 }
